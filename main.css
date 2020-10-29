@@ -3,6 +3,7 @@
 	margin: 0;
 }
 .content{
+	max-width: 900px;
 	margin: 50px auto;
 }
 
