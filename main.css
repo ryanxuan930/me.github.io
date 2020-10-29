@@ -8,9 +8,12 @@
 	margin: 50px auto;
 }
 .title{
-	margin: 15px 0;
+	margin: 10px 0;
 	font-size: 36pt;
 	font-weight: 700;
+}
+.paragraph{
+	margin: 5px 10px;
 }
 .paragraph p{
 	font-size: 24pt;
