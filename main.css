@@ -20,10 +20,10 @@
 	font-weight: 400;
 }
 .paragraph a{
-	animation: 3s;
 	text-decoration: none;
 }
 .paragraph a:hover{
+	transition-delay:2s;
 	text-decoration: underline;
 }
 .sub{
