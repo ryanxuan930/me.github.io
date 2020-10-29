@@ -10,20 +10,22 @@
 <body>
 	<div id="content">
 		<button v-on:click="language">Change it</button>
-		{{obj}}
+		<div>{{obj}}</div>
 	</div>
 <script>
 var obj = {
   	language: 'en-US'
-}
+};
 if(obj.language=='en-US'){
 	obj.language='zh-TW';
 }else{
 	obj.language='en-US';	
 }
+
+Object.freeze(obj);
+
 new Vue({
 	el: '#content',
-	template: '<div class="title"></div>',
 	data: obj
 });
 	</script>
