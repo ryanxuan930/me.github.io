@@ -4,30 +4,16 @@
 <meta charset="UTF-8">
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <title>Ryan Po-Hsuan Chang</title>
 </head>
 <body>
-	<div id="content">
-		<button v-on:click="obj">Change it</button>
-		<div>{{obj}}</div>
+	<div class="content">
+		<div class="title">Hi, I'm Ryan Po-Hsuan Chang</div>
+		<div class="paragraph">
+			<p>I am a undergraduate student at National Sun Yat-sen University in Taiwan. </p>
+			<p>Currently, I'm an track and field athlete, a web-based app developer, and a amateur percussionist.</p>
+		</div>
+		<div class="paragraph"></div>
 	</div>
-<script>
-var obj = {
-  	language: 'en-US'
-};
-if(obj.language=='en-US'){
-	obj.language='zh-TW';
-}else{
-	obj.language='en-US';	
-}
-
-Object.freeze(obj);
-
-new Vue({
-	el: '#content',
-	data: obj
-});
-	</script>
 </body>
 </html>
