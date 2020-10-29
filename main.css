@@ -19,6 +19,12 @@
 	font-size: 24pt;
 	font-weight: 400;
 }
+.paragraph a{
+	text-decoration: none;
+}
+.paragraph a:hover{
+	text-decoration: underline;
+}
 .sub{
 	margin: 5px 0;
 	font-size: 28pt;
