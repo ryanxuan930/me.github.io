@@ -8,13 +8,17 @@
 	margin: 50px auto;
 }
 .title{
-	margin: 10px 0;
+	margin: 15px 0;
 	font-size: 36pt;
 	font-weight: 700;
 }
 .paragraph p{
-	margin: 5px;
 	font-size: 24pt;
+	font-weight: 500;
+}
+.sub{
+	margin: 5px 0;
+	font-size: 28pt;
 	font-weight: 500;
 }
 @media screen and (max-width: 900px) {
