@@ -9,16 +9,23 @@
 </head>
 <body>
 	<div id="content">
+		<button v-on:click="language">Change it</button>
 		{{message}}
 	</div>
-	<script>
-		new Vue({
-			el: '#content',
-			template: '<div class="title"></div>',
-			data: {
-				message: 'Hello World!'
-			}
-		});
+<script>
+var obj = {
+  	language: 'en-US'
+}
+if(obj.language=='en-US'){
+	obj.language='zh-TW';
+}else{
+	obj.language='en-US';	
+}
+new Vue({
+	el: '#content',
+	template: '<div class="title"></div>',
+	data: obj
+});
 	</script>
 </body>
 </html>
