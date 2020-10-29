@@ -23,7 +23,7 @@
 	text-decoration: none;
 }
 .paragraph a:hover{
-	transition-delay:1s;
+	transition-delay:2s;
 	text-decoration: underline;
 }
 .sub{
