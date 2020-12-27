@@ -19,6 +19,9 @@
 	font-size: 24pt;
 	font-weight: 400;
 }
+.paragraph p{
+	padding: 10px;
+}
 .paragraph a{
 	text-decoration: none;
 }
