@@ -26,7 +26,7 @@
 	text-decoration: none;
 }
 .paragraph a{
-	margin: 5px 10px;
+	margin: 5px 0;
 }
 .paragraph a:hover{
 	transition-delay:5s;
