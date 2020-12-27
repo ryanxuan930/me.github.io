@@ -27,6 +27,7 @@
 	margin: 5px 0;
 }
 .paragraph a:hover{
+    opacity: 0.9;
 	transition-delay:5s;
 	text-decoration: underline;
 }
