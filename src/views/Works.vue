@@ -51,6 +51,10 @@ export default {
 <style lang="less" scoped>
 h2 {
     font-size: 24pt;
+    margin-bottom: 10px;
+    @media screen and (max-width: 1000px){
+        font-size: 20pt;
+    }
 }
 hr {
     border: 2px #242424 solid;
@@ -60,9 +64,15 @@ hr {
     h3 {
         font-size: 20pt;
         margin-bottom: 20px;
+        @media screen and (max-width: 1000px){
+        font-size: 16pt;
+    }
     }
     font-size: 18pt;
     margin-bottom: 20px;
+    @media screen and (max-width: 1000px){
+        font-size: 14pt;
+    }
 }
 .link {
     display: inline-block;

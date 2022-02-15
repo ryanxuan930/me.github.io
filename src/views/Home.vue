@@ -17,10 +17,16 @@
 h2 {
     font-size: 24pt;
     margin-bottom: 10px;
+    @media screen and (max-width: 1000px){
+        font-size: 20pt;
+    }
 }
 .context {
     font-size: 18pt;
     margin-bottom: 20px;
+    @media screen and (max-width: 1000px){
+        font-size: 14pt;
+    }
 }
 .icon_link {
     margin-top: 50px;

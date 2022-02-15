@@ -26,16 +26,16 @@
     margin: auto;
     box-sizing: border-box;
     @media screen and (max-width: 1000px){
-        margin: 0 50px;
+        margin: 0 20px;
         width: auto;
     }
 }
 #navbar {
     margin: 20px 0;
-    text-align: center;
     display: flex;
+    flex-wrap: wrap;
     a {
-        margin: 0 10px;
+        margin-right: 20px;
         text-align: center;
         display: block;
         font-size: 14pt;
