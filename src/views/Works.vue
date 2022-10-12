@@ -1,18 +1,18 @@
 <template>
     <div class="content">
-        <h2>Public Works</h2>
+        <h2>Current</h2>
         <hr>
+        <div class="context">
+            <h3 class="link" @click="open('https://sports.nsysu.edu.tw')">NSYSU Sport Event Management System</h3>
+            <img @click="open('https://sports.nsysu.edu.tw')" src="@/assets/NSYSUSPORT.png">
+        </div>
+        <div class="context">
+            <h3 class="link" @click="open('https://sports.nsysu.edu.tw/2022ufag')">2022 UAAK Freshman Athletics Game</h3>
+            <img @click="open('https://sports.nsysu.edu.tw/2022ufag')" src="@/assets/2022UFAG.png">
+        </div>
         <div class="context">
             <h3 class="link" @click="open('https://sports.hs.ntnu.edu.tw')">HSNUA 3.0</h3>
             <img @click="open('https://sports.hs.ntnu.edu.tw')" src="@/assets/HSNUA.png">
-        </div>
-        <div class="context">
-            <h3 class="link" @click="open('https://nsysugo.nsysu.edu.tw/')">NSYSUGO Serendipity System</h3>
-            <img @click="open('https://nsysugo.nsysu.edu.tw/')" src="@/assets/NSYSUGO.png">
-        </div>
-        <div class="context">
-            <h3 class="link" @click="open('https://nsysu-athletics.github.io/health/index/#/login')">NSYSU Health Code</h3>
-            <img @click="open('https://nsysu-athletics.github.io/health/index/#/login')" src="@/assets/NHC.png">
         </div>
         <div class="context">
             <h3 class="link" @click="open('https://nsysu-athletics.github.io/site/')">NSYSU Athletics</h3>
@@ -22,15 +22,21 @@
             <h3 class="link" @click="open('https://ryanxuan930.github.io/nsysu_campus_bus/')">NSYSU Campus Bus</h3>
             <img @click="open('https://ryanxuan930.github.io/nsysu_campus_bus/')" src="@/assets/BUS.png">
         </div>
-        <h2>Others</h2>
+        <h2 class="mt-10">Previous</h2>
         <hr>
+        <div class="context">
+            <h3>NSYSUGO &quot;Serendipity&quot; E-commerce Platform</h3>
+            <img src="@/assets/NSYSUGO.png">
+        </div>
+        <h2 class="mt-10">Private</h2>
+        <hr>
+        <div class="context">
+            <h3>NSYSU Interneational Affairs Information Management System</h3>
+            <img src="@/assets/NIAMS.png">
+        </div>
         <div class="context">
             <h3>IRIS 2 (Institutional Research Information System 2nd Generation for NSYSU)</h3>
             <div>Under Development</div>
-        </div>
-        <div class="context">
-            <h3>TechNSport SportEvent Pro 3</h3>
-            <div>Private System</div>
         </div>
     </div>
 </template>
