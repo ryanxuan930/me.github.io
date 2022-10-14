@@ -14,7 +14,7 @@
             <ul>
                 <li>5000m - 16:21</li>
                 <li>10000m - 35:42</li>
-                <li>Half marathon - 1:78:35</li>
+                <li>Half marathon - 78:35</li>
                 <li>Former HSNU Athletic Team Long-distance runner</li>
                 <li>NSYSU Athletics Captain and Long-distance runner</li>
             </ul>
