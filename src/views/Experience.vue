@@ -7,7 +7,7 @@
                 <li>2022.07-Present : Adjunct Information Assistant, Athletic Department, National Taiwan Normal University</li>
                 <li>2022.06-Present : Researcher of Planning Science Lab, Program in Interdisciplinary Studies, Si Wan College, National Sun Yat-sen University</li>
                 <li>2022.07-Present : Web Engineer, Physical Development Division, Office of Student Affairs, National Sun Yat-sen University</li>
-                <li>2022.02-Present : Web Developer, Office of Interneational Affairs, National Sun Yat-sen University</li>
+                <li>2022.02-Present : Web Developer, Office of International Affairs, National Sun Yat-sen University</li>
                 <li>2021.08-Present : Adjunct Information Assistant, Office of Institutional Research, Center for Quality Assurance, National Sun Yat-sen University</li>
             </ul>
         </div>
