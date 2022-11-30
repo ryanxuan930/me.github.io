@@ -22,6 +22,8 @@
         <h2>Speeches / Teaching</h2>
         <div class="context">
             <ul>
+                <li>2022.12 : Speaker of NSYSU Google Developer Student Club Web Development Workshop, National Sun Yat-sen University</li>
+                <li>2022.11 : Speaker of DevFest Kaohsiung &amp; Tainan 2022, Google Developer Groups Kaohsiung</li>
                 <li>2021.11 &amp; 2022.10 : Teach about Web Development at Department of Engineering Science, National Cheng Kung University</li>
                 <li>2022.06 : Judge of NSYSU Google Developer Student Club Final Presentation, National Sun Yat-sen University</li>
             </ul>
