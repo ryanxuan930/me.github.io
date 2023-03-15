@@ -31,6 +31,7 @@
         <h2>Others</h2>
         <div class="context">
             <ul>
+                <li>2023.01-Present : Head of Club Division, NSYSU Student Association</li>
                 <li>2022.09-Present : Captain of NSYSU Athletics</li>
                 <li>2021.09-2022.08 : Co-captain of NSYSU Athletics</li>
                 <li>2021 &amp; 2022 : Principal Percussionist of Alumni Chinese Orchestra of Affiliated Senior High School of National Taiwan Normal University</li>
