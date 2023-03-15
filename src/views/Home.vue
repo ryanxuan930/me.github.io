@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <h2>Hi, I'm Ryan Po-Hsuan Chang</h2>
-        <div class="context">I am a undergraduate student at National Sun Yat-sen University in Taiwan, majoring in Program in Interdisciplinary Studies.</div>
+        <div class="context">I am an undergraduate student at National Sun Yat-sen University in Taiwan, majoring in Program in Interdisciplinary Studies.</div>
         <div class="context">I'm a track and field athlete, a full-stack engineer, and an amateur percussionist.</div>
         <div class="context"></div>
         <div class="icon_link">

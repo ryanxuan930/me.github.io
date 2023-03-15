@@ -3,16 +3,12 @@
         <h2>Current</h2>
         <hr>
         <div class="context">
-            <h3 class="link" @click="open('https://sports.nsysu.edu.tw')">NSYSU Sport Event Management System</h3>
-            <img @click="open('https://sports.nsysu.edu.tw')" src="@/assets/NSYSUSPORT.png">
+            <h3 class="link" @click="open('https://sports.nsysu.edu.tw/2')">NSYSU Sport Event Management System</h3>
+            <img @click="open('https://sports.nsysu.edu.tw/2')" src="@/assets/NSYSUSPORT.png">
         </div>
         <div class="context">
-            <h3 class="link" @click="open('https://sports.nsysu.edu.tw/2022ufag')">2022 UAAK Freshman Athletics Game</h3>
-            <img @click="open('https://sports.nsysu.edu.tw/2022ufag')" src="@/assets/2022UFAG.png">
-        </div>
-        <div class="context">
-            <h3 class="link" @click="open('https://sports.hs.ntnu.edu.tw')">HSNUA 3.0</h3>
-            <img @click="open('https://sports.hs.ntnu.edu.tw')" src="@/assets/HSNUA.png">
+            <h3 class="link" @click="open('https://sports.hs.ntnu.edu.tw/2')">HSNUA 3.0</h3>
+            <img @click="open('https://sports.hs.ntnu.edu.tw/2')" src="@/assets/HSNUA.png">
         </div>
         <div class="context">
             <h3 class="link" @click="open('https://nsysu-athletics.github.io/site/')">NSYSU Athletics</h3>
