@@ -3,6 +3,8 @@
   import Tag from 'primevue/tag';
   import Chip from 'primevue/chip';
   import Button from 'primevue/button';
+
+  const isBuild = (import.meta as any).env.PROD;
   const props = defineProps<{
     inputItem: {
       title: string;
@@ -17,6 +19,10 @@
     filterSection: number;
   }>();
   function imgRouteHandler(route: string) {
+    // if isBuild, remove /public in the route
+    if (isBuild) {
+      return new URL(route, import.meta.url).href.replace('/public', '');
+    }
     return new URL(route, import.meta.url).href;
   }
   function openLink(link: { title: string; url: string }) {
