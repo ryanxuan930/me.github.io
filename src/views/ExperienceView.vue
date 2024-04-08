@@ -1,5 +1,4 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="flex p-6">
@@ -55,7 +54,7 @@
         </ul>
       </div>
       <div>
-        <div class="section-title mb-2">Speaches</div>
+        <div class="section-title mb-2">Speeches</div>
         <ul>
           <li>
             <div class="font-bold">Speaker</div>
