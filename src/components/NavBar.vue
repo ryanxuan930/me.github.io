@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row py-3 text-slate-300 text-xl gap-2 md:gap-8 px-12 font-semibold bg-gradient-to-r from-black bg-opacity-90 z-10 absolute w-full">
+  <div class="flex flex-col md:flex-row py-3 text-slate-300 text-xl gap-2 md:gap-8 px-6 md:px-12 font-semibold bg-gradient-to-r from-black bg-opacity-90 z-50 absolute w-full">
     <div class="flex flex-grow items-center">
       <div class="flex-grow">RYAN CHANG</div>
       <div class="text-3xl block md:hidden">
@@ -15,9 +15,9 @@
       </div>
     </div>
     <TransitionGroup name="list">
-      <router-link :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/">{{ t('navbar.home') }}</router-link>
-      <router-link :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/expirence">{{ t('navbar.experience') }}</router-link>
-      <router-link :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/works">{{ t('navbar.works') }}</router-link>
+      <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/">{{ t('navbar.home') }}</router-link>
+      <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/experience">{{ t('navbar.experience') }}</router-link>
+      <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/projects">{{ t('navbar.projects') }}</router-link>
     </TransitionGroup>
   </div>
 </template>
