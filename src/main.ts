@@ -24,7 +24,7 @@ const i18n = createI18n({
       navbar: {
         home: '首頁',
         experience: '經歷',
-        works: '作品',
+        projects: '作品',
       },
     },
   },
