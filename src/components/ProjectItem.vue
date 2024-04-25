@@ -50,9 +50,9 @@
       <div class="title">
         {{ item.title[locale as 'zh-TW'|'en'] }}
         <span class="relative -top-1">
-          <Tag v-if="item.status === 0" class="p-1 text-xs bg-red-500">Deprecated</Tag>
-          <Tag v-else-if="item.status === 1" class="p-1 text-xs bg-green-500">Active</Tag>
-          <Tag v-else class="p-1 text-xs bg-yellow-500">Maintaining</Tag>
+          <Tag v-if="item.status === 0" class="p-1 text-xs bg-red-500">{{ t('deprecated') }}</Tag>
+          <Tag v-else-if="item.status === 1" class="p-1 text-xs bg-green-500">{{ t('active') }}</Tag>
+          <Tag v-else class="p-1 text-xs bg-yellow-500">{{ t('maintaining') }}</Tag>
         </span>
       </div>
       <div class="flex gap-3 flex-wrap" :class="{ 'md:flex-row-reverse ': index % 2 === 1 }">
@@ -77,3 +77,18 @@
     @apply text-sm font-medium border-2 py-1 px-4 border-slate-300 text-slate-300 hover:bg-slate-300 hover:text-black duration-150;
   }
 </style>
+
+<i18n>
+  {
+    "en": {
+      "maintaining": "Maintaining",
+      "active": "Active",
+      "deprecated": "Deprecated"
+    },
+    "zh-TW": {
+      "maintaining": "維護中",
+      "active": "使用中",
+      "deprecated": "已停止維護"
+    }
+  }
+  </i18n

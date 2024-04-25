@@ -1,6 +1,9 @@
 <script lang="ts" setup>
   import { ref } from 'vue';
   import ProjectItem from '@/components/ProjectItem.vue';
+  import { useI18n } from 'vue-i18n';
+
+  const { t } = useI18n();
 
   const projects = ref([
     {
@@ -135,10 +138,23 @@
 <template>
   <div class="flex p-6">
     <div class="m-auto w-full md:w-[768px] lg:w-[1024px] xl:w-[1280px] flex flex-col gap-6">
-      <div class="section-title border-b-4">Websites</div>
+      <div class="section-title border-b-4">{{ t('websites') }}</div>
       <ProjectItem :inputItem="projects" :filterSection="1" />
-      <div class="section-title border-b-4">Others</div>
+      <div class="section-title border-b-4">{{ t('others') }}</div>
       <ProjectItem :inputItem="projects" :filterSection="2" />
     </div>
   </div>
 </template>
+
+<i18n>
+  {
+    "en": {
+      "websites": "Websites",
+      "others": "Others"
+    },
+    "zh-TW": {
+      "websites": "網站類",
+      "others": "其他類"
+    }
+  }
+  </i18n
