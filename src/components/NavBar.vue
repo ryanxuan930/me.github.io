@@ -18,7 +18,7 @@
       <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/">{{ t('navbar.home') }}</router-link>
       <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/experience">{{ t('navbar.experience') }}</router-link>
       <router-link @click="hideNav = true" :class="{ hidden: hideNav, 'md:block duration-150': true }" to="/projects">{{ t('navbar.projects') }}</router-link>
-      <a @click="locale = locale == 'en' ? 'zh-TW' : 'en'">{{ locale == 'en' ? '中文' : 'ENGLISH' }}</a>
+      <a :class="{ hidden: hideNav, 'md:block duration-150': true }" @click="locale = locale == 'en' ? 'zh-TW' : 'en'">{{ locale == 'en' ? '中文' : 'ENGLISH' }}</a>
     </TransitionGroup>
   </div>
 </template>
