@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="bg-gradient-to-br from-black to-slate-700 h-screen overflow-hidden flex flex-col font-noto-sans" :class="{ 'font-geologica': locale == 'en', 'font-noto-sans': locale == 'zh-TW' }">
+  <div class="bg-gradient-to-br from-black to-slate-700 h-dvh overflow-hidden flex flex-col font-noto-sans" :class="{ 'font-geologica': locale == 'en', 'font-noto-sans': locale == 'zh-TW' }">
     <div class="h-24 md:h-16">
       <NavBar />
     </div>
