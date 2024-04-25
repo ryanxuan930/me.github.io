@@ -1,8 +1,7 @@
 <script setup lang="ts">
-  import { ref } from 'vue';
   import { useI18n } from 'vue-i18n';
 
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 </script>
 
 <template>
@@ -46,13 +45,20 @@
       </div>
       <div class="max-w-80 md:max-w-none flex flex-col gap-4">
         <div class="section-title">{{ t('about') }}</div>
-        <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2">
+        <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2" v-if="locale == 'en'">
           <p>I'm Ryan Po-Hsuan Chang, a full-stack developer from Kaohsiung, Taiwan.</p>
           <p>
             I specialize in creating websites and applications using <strong class="border-b-2 border-b-emerald-400">Vue</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> and <strong class="border-b-2 border-red-500">Laravel</strong>, with additional experience in
             <strong class="border-b-2 border-b-blue-500">React</strong> and <strong class="border-b-2 border-b-yellow-400">Python</strong>.
           </p>
           <p>Passionate about pushing the boundaries of web development, I constantly seek new challenges to enhance my expertise.</p>
+        </div>
+        <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2" v-else>
+          <p>我是張栢瑄，一個全端工程師，經常出沒於高雄。</p>
+          <p>
+            擅長使用 <strong class="border-b-2 border-b-emerald-400">Vue</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> 和 <strong class="border-b-2 border-red-500">Laravel</strong>來開發網頁系統，另外在開發過程中也有使用<strong class="border-b-2 border-b-blue-500">React</strong> 和 <strong class="border-b-2 border-b-yellow-400">Python</strong>的經驗.
+          </p>
+          <p>喜歡不斷嘗試新的挑戰、擁抱新的技術，不怕踩雷跟重構，希望自己的技術能持續精益求精</p>
         </div>
         <div class="section-title">{{ t('skills') }}</div>
         <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -61,11 +67,11 @@
               <span>{{ t('frontend') }}</span>
             </div>
             <ul>
-              <li>Vue 3</li>
+              <li>Nuxt (Vue 3)</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
               <li>PrimeVue</li>
-              <li>React</li>
+              <li>Next (React)</li>
               <li>SCSS</li>
             </ul>
           </div>
@@ -132,7 +138,7 @@
       "line1": "嗨, 我是",
       "line2": "張栢瑄"
     },
-    "description": "喜歡亂開技能樹的全端開發者",
+    "description": "喜歡亂點技能樹的全端開發者",
     "location": "台灣高雄",
     "about": "關於我",
     "skills": "技能樹",

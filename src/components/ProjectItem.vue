@@ -3,12 +3,21 @@
   import Tag from 'primevue/tag';
   import Chip from 'primevue/chip';
   import Button from 'primevue/button';
+  import { useI18n } from 'vue-i18n';
+
+  const { t, locale } = useI18n();
 
   const isBuild = (import.meta as any).env.PROD;
   const props = defineProps<{
     inputItem: {
-      title: string;
-      discription: string;
+      title: {
+        'zh-TW': string;
+        en: string;
+      };
+      discription: {
+        'zh-TW': string;
+        en: string;
+      };
       tags: string[];
       links: { title: string; url: string }[];
       cover: string;
@@ -39,7 +48,7 @@
     </Card>
     <div class="w-full md:w-auto p-4 md:basis-1/2 flex flex-col gap-4">
       <div class="title">
-        {{ item.title }}
+        {{ item.title[locale as 'zh-TW'|'en'] }}
         <span class="relative -top-1">
           <Tag v-if="item.status === 0" class="p-1 text-xs bg-red-500">Deprecated</Tag>
           <Tag v-else-if="item.status === 1" class="p-1 text-xs bg-green-500">Active</Tag>
@@ -49,7 +58,7 @@
       <div class="flex gap-3 flex-wrap" :class="{ 'md:flex-row-reverse ': index % 2 === 1 }">
         <Chip v-for="(tag, index) in item.tags" :key="index" class="text-sm">{{ tag }}</Chip>
       </div>
-      <div class="text-slate-300">{{ item.discription }}</div>
+      <div class="text-slate-300">{{ item.discription[locale as 'zh-TW'|'en'] }}</div>
       <div v-if="item.visibility" class="flex gap-3 pt-4 flex-wrap" :class="{ 'md:flex-row-reverse': index % 2 === 1 }">
         <Button v-for="(link, index) in item.links" :key="index" class="button" :label="link.title" @click="openLink(link)" icon="pi pi-external-link" />
       </div>

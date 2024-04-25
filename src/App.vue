@@ -1,10 +1,13 @@
 <script setup lang="ts">
   import { RouterView } from 'vue-router';
   import NavBar from '@/components/NavBar.vue';
+  import { useI18n } from 'vue-i18n';
+
+  const { locale } = useI18n();
 </script>
 
 <template>
-  <div class="bg-gradient-to-br from-black to-slate-700 h-screen overflow-hidden flex flex-col geologica-font">
+  <div class="bg-gradient-to-br from-black to-slate-700 h-screen overflow-hidden flex flex-col font-noto-sans" :class="{ 'font-geologica': locale == 'en', 'font-noto-sans': locale == 'zh-TW' }">
     <div class="h-24 md:h-16">
       <NavBar />
     </div>
@@ -16,6 +19,9 @@
 </template>
 
 <style>
+* {
+  @apply font-common;
+}
 #app {
   @apply text-slate-100;
 }
