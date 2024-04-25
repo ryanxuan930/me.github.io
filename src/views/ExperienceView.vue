@@ -71,7 +71,7 @@ const experienceList:Ref<Experience[]> = ref([
       'zh-TW': '國立中山大學歐盟中心',
       en: 'European Centre, National Sun Yat-sen University',
     },
-    duration: 'September 2022 - February 2023',
+    duration: 'September 2022 - September 2023',
   },
   {
     title: {
@@ -101,7 +101,7 @@ const experienceList:Ref<Experience[]> = ref([
       en: 'CTO',
     },
     company: {
-      'zh-TW': '中山GO電商',
+      'zh-TW': '中山GO電商新創',
       en: 'NSYSU GO E-commerce',
     },
     duration: 'August 2021 - July 2022',
