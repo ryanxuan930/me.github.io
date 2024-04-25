@@ -35,7 +35,7 @@ const experienceList:Ref<Experience[]> = ref([
       en: 'Senior Full-stack Engineer',
     },
     company: {
-      'zh-TW': '誠諾工程科技股份有限公司',
+      'zh-TW': '誠諾工程技術股份有限公司',
       en: 'Cheng-Nuo Engineering Technology Company',
     },
     duration: 'October 2023 - Current',
