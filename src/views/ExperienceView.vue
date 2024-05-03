@@ -20,6 +20,17 @@ type Experience = {
 const experienceList:Ref<Experience[]> = ref([
   {
     title: {
+      'zh-TW': '前端工程師',
+      en: 'Frontend Developer',
+    },
+    company: {
+      'zh-TW': 'LiquidLogic Tech',
+      en: 'LiquidLogic Tech',
+    },
+    duration: 'May 2024 - Current',
+  },
+  {
+    title: {
       'zh-TW': '創辦人',
       en: 'Founder',
     },
@@ -38,7 +49,7 @@ const experienceList:Ref<Experience[]> = ref([
       'zh-TW': '誠諾工程技術股份有限公司',
       en: 'Cheng-Nuo Engineering Technology Company',
     },
-    duration: 'October 2023 - Current',
+    duration: 'October 2023 - May 2024',
   },
   {
     title: {
