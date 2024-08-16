@@ -11,7 +11,11 @@
         <div class="h-72 w-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 object-cover relative">
           <div class="h-full w-full rounded-full absolute border-4 border-rose-500 -right-3 -bottom-3 z-10"></div>
           <div class="h-full w-full rounded-full absolute bg-rose-500 -right-3 -bottom-3"></div>
-          <img class="rounded-full grayscale h-full shadow" src="@/assets/avatar.jpeg" alt="" />
+          <img
+            class="rounded-full grayscale h-full shadow"
+            src="@/assets/avatar.jpeg"
+            alt=""
+          />
         </div>
         <div class="font-bold text-5xl lg:text-6xl xl:text-7xl flex flex-col gap-4">
           <div>
@@ -24,19 +28,34 @@
             <div>{{ t('location') }}</div>
           </div>
           <div class="flex items-center gap-5 text-3xl text-slate-300">
-            <a href="mailto:ryanphchang@gmail.com" target="_blank">
+            <a
+              href="mailto:ryanphchang@gmail.com"
+              target="_blank"
+            >
               <i class="icon pi pi-at"></i>
             </a>
-            <a href="https://github.com/ryanxuan930" target="_blank">
+            <a
+              href="https://github.com/ryanxuan930"
+              target="_blank"
+            >
               <i class="icon pi pi-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/ryan-po-hsuan-chang-055a0a253/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ryan-po-hsuan-chang-055a0a253/"
+              target="_blank"
+            >
               <i class="icon pi pi-linkedin"></i>
             </a>
-            <a href="https://t.me/ryanxuan930" target="_blank">
+            <a
+              href="https://t.me/ryanxuan930"
+              target="_blank"
+            >
               <i class="icon pi pi-telegram"></i>
             </a>
-            <a href="https://www.instagram.com/ryan_qaqa/" target="_blank">
+            <a
+              href="https://www.instagram.com/ryan_qaqa/"
+              target="_blank"
+            >
               <i class="icon pi pi-instagram"></i>
             </a>
           </div>
@@ -45,18 +64,36 @@
       </div>
       <div class="max-w-80 md:max-w-none flex flex-col gap-4">
         <div class="section-title">{{ t('about') }}</div>
-        <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2" v-if="locale == 'en'">
+        <div
+          class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2"
+          v-if="locale == 'en'"
+        >
           <p>I'm Ryan Po-Hsuan Chang, a full-stack developer from Kaohsiung, Taiwan.</p>
           <p>
-            I specialize in creating websites and applications using <strong class="border-b-2 border-b-emerald-400">Vue</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> and <strong class="border-b-2 border-red-500">Laravel</strong>, with additional experience in
-            <strong class="border-b-2 border-b-blue-500">React</strong> and <strong class="border-b-2 border-b-yellow-400">Python</strong>.
+            I specialize in creating websites and applications using <strong
+              class="border-b-2 border-b-emerald-400">Nux.js (Vue)</strong> / <strong
+              class="border-b-2 border-b-blue-500"
+            >Next.js (React)</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> and <strong
+              class="border-b-2 border-red-500"
+            >Laravel</strong>, with additional experience with <strong
+              class="border-b-2 border-b-yellow-500">Node.js</strong>
+            and <strong class="border-b-2 border-b-yellow-300">Python</strong>.
           </p>
-          <p>Passionate about pushing the boundaries of web development, I constantly seek new challenges to enhance my expertise.</p>
+          <p>Passionate about pushing the boundaries of web development, I constantly seek new challenges to enhance my
+            expertise.</p>
         </div>
-        <div class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2" v-else>
+        <div
+          class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2"
+          v-else
+        >
           <p>我是張栢瑄，一個全端工程師，經常出沒於高雄。</p>
           <p>
-            擅長使用 <strong class="border-b-2 border-b-emerald-400">Vue</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> 和 <strong class="border-b-2 border-red-500">Laravel</strong>來開發網頁系統，另外在開發過程中也有使用<strong class="border-b-2 border-b-blue-500">React</strong> 和 <strong class="border-b-2 border-b-yellow-400">Python</strong>的經驗.
+            專精使用 <strong class="border-b-2 border-b-emerald-400">Nuxt.js (Vue)</strong> / <strong
+              class="border-b-2 border-b-blue-500"
+            >Next.js (React)</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> 和 <strong
+              class="border-b-2 border-red-500"
+            >Laravel</strong>來開發，同時也熟悉<strong class="border-b-2 border-b-yellow-500">Node.js</strong>與
+            <strong class="border-b-2 border-b-yellow-300">Python</strong>。
           </p>
           <p>喜歡不斷嘗試新的挑戰、擁抱新的技術，不怕踩雷跟重構，希望自己的技術能持續精益求精</p>
         </div>
@@ -68,11 +105,13 @@
             </div>
             <ul>
               <li>Nuxt (Vue 3)</li>
+              <li>Next (React)</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
-              <li>PrimeVue</li>
-              <li>Next (React)</li>
+              <li>PrimeVue / PrimeReact</li>
               <li>SCSS</li>
+              <li>Pinia</li>
+              <li>Zustand / Jotai</li>
             </ul>
           </div>
           <div>
@@ -86,6 +125,7 @@
               <li>Apache</li>
               <li>Linux</li>
               <li>Docker</li>
+              <li>GCP</li>
             </ul>
           </div>
           <div>
@@ -97,7 +137,8 @@
               <li>Selenium</li>
               <li>Arduino</li>
               <li>Git</li>
-              <li>Illustrator</li>
+              <li>Electron</li>
+              <li>OpenCV</li>
             </ul>
           </div>
         </div>
@@ -110,9 +151,11 @@
   .box-title {
     @apply text-2xl font-bold mb-2;
   }
+
   .tag-box {
     @apply -top-0.5 text-xs relative inline-block;
   }
+
   .icon {
     @apply text-2xl md:text-3xl lg:text-4xl;
   }

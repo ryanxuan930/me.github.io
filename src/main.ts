@@ -18,6 +18,7 @@ const i18n = createI18n({
         home: 'HOME',
         experience: 'EXPERIENCE',
         projects: 'PROJECTS',
+        name: 'RYAN CHANG',
       },
     },
     'zh-TW': {
@@ -25,6 +26,7 @@ const i18n = createI18n({
         home: '首頁',
         experience: '經歷',
         projects: '作品',
+        name: '張栢瑄',
       },
     },
   },
