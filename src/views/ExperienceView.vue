@@ -18,17 +18,7 @@
   };
 
   const experienceList: Ref<Experience[]> = ref([
-    {
-      title: {
-        'zh-TW': '前端工程師',
-        en: 'Frontend Developer',
-      },
-      company: {
-        'zh-TW': 'Bucket Protocol',
-        en: 'Bucket Protocol',
-      },
-      duration: 'May 2024 - Current',
-    },
+
     {
       title: {
         'zh-TW': '共同創辦人',
@@ -39,6 +29,17 @@
         en: 'TechNSport',
       },
       duration: 'April 2024 - Current',
+    },
+    {
+      title: {
+        'zh-TW': '前端工程師',
+        en: 'Frontend Developer',
+      },
+      company: {
+        'zh-TW': 'Bucket Protocol',
+        en: 'Bucket Protocol',
+      },
+      duration: 'May 2024 - Aug 2024',
     },
     {
       title: {
