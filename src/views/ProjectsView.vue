@@ -12,8 +12,8 @@
         en: 'AthletIX 6',
       },
       discription: {
-        'zh-TW': 'AthletIX (ATHLEte Information eXchange platform) 6 系統是 SportEvent Pro 5 的後繼版本，將深度整合自主技術研發的電動計時設備，並提升系統效能與降低營運成本，提供更好的競賽資訊系統與使用者體驗。',
-        en: 'AthletIX 6 is the successor to SportEvent Pro 5, integrating proprietary electronic timing equipment and enhancing system performance while reducing operational costs. It provides a better competition information system and user experience.',
+        'zh-TW': 'AthletIX (ATHLETe Information eXchange platform) 6 系統是 SportEvent Pro 5 的後繼版本，將深度整合自主技術研發的電動計時設備，並提升系統效能與降低營運成本，提供更好的競賽資訊系統與使用者體驗。',
+        en: 'AthletIX (ATHLETe Information eXchange platform) 6 is the successor to SportEvent Pro 5, integrating proprietary electronic timing equipment and enhancing system performance while reducing operational costs. It provides a better competition information system and user experience.',
       },
       tags: ['Nuxt', 'Next', 'TypeScript', 'Tailwind CSS', 'PrimeVue', 'PrimeReact', 'Laravel', 'Docker', 'GCP'],
       links: [
