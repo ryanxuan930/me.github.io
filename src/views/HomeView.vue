@@ -68,10 +68,10 @@
           class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2"
           v-if="locale == 'en'"
         >
-          <p>I'm Ryan Po-Hsuan Chang, a full-stack developer from Kaohsiung, Taiwan.</p>
+          <p>I'm Ryan Po-Hsuan Chang, a sport lover, a full-stack developer, and the Founder & CEO of TechNSport.</p>
           <p>
             I specialize in creating websites and applications using <strong
-              class="border-b-2 border-b-emerald-400">Nux.js (Vue)</strong> / <strong
+              class="border-b-2 border-b-emerald-400">Nuxt.js (Vue)</strong> / <strong
               class="border-b-2 border-b-blue-500"
             >Next.js (React)</strong> + <strong class="border-b-2 border-b-sky-400">TypeScript</strong> and <strong
               class="border-b-2 border-red-500"
@@ -86,7 +86,7 @@
           class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2"
           v-else
         >
-          <p>我是張栢瑄，一個全端工程師，經常出沒於高雄。</p>
+          <p>我是張栢瑄，一個熱愛體育的全端工程師、致躍科技創辦人兼執行長。</p>
           <p>
             專精使用 <strong class="border-b-2 border-b-emerald-400">Nuxt.js (Vue)</strong> / <strong
               class="border-b-2 border-b-blue-500"

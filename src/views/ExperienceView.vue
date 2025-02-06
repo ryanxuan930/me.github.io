@@ -21,14 +21,14 @@
 
     {
       title: {
-        'zh-TW': '共同創辦人',
-        en: 'Co-Founder',
+        'zh-TW': '創辦人兼執行長',
+        en: 'Founder & CEO',
       },
       company: {
-        'zh-TW': 'TechNSport',
-        en: 'TechNSport',
+        'zh-TW': '致躍科技有限公司',
+        en: 'TechNSport Co., Ltd.',
       },
-      duration: 'April 2024 - Current',
+      duration: 'Sep 2024 - Current',
     },
     {
       title: {
