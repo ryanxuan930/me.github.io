@@ -28,7 +28,7 @@
         'zh-TW': '致躍科技有限公司',
         en: 'TechNSport Co., Ltd.',
       },
-      duration: 'Sep 2024 - Current',
+      duration: 'September 2024 - Current',
     },
     {
       title: {
@@ -39,7 +39,7 @@
         'zh-TW': 'Bucket Protocol',
         en: 'Bucket Protocol',
       },
-      duration: 'May 2024 - Aug 2024',
+      duration: 'May 2024 - August 2024',
     },
     {
       title: {
