@@ -68,7 +68,7 @@
           class="text-lg leading-6 max-w-[768px] lg:max-w-[1024px] flex flex-col gap-2"
           v-if="locale == 'en'"
         >
-          <p>I'm Ryan Po-Hsuan Chang, a sport lover, a full-stack developer, and the Founder & CEO of TechNSport.</p>
+          <p>I'm Ryan Po-Hsuan Chang, a sports lover, a full-stack developer, and the Founder & CEO of TechNSport.</p>
           <p>
             I specialize in creating websites and applications using <strong
               class="border-b-2 border-b-emerald-400">Nuxt.js (Vue)</strong> / <strong
