@@ -19,7 +19,7 @@
       links: [
         {
           title: 'Link',
-          url: 'https://athletix.technsport.co/registration',
+          url: 'https://athletix.technsport.co/registration/login/user',
         },
       ],
       images: [],
